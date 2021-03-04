@@ -62,11 +62,10 @@ function clickKeyDrum(e){
     var innerHTML = e.target.innerHTML; 
     animate(innerHTML)
     soundKey(innerHTML)
-    soundKey(innerHTML.touches)
 }
 
 var keyDrum = document.querySelectorAll('.drum')
 for(let i = 0; i < keyDrum.length; i++){
-    keyDrum[i].addEventListener('touchstart', clickKeyDrum);
+    keyDrum[i].addEventListener('click', clickKeyDrum);
 };
 

@@ -115,6 +115,10 @@ button {
 }
 
 h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
   font-size: 25px;
   text-transform: uppercase;
   transition: all 0.3s ease;
